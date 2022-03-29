@@ -1,0 +1,512 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		39DA0E9327EDE3F50055AF3F /* BeagleLearningNetworkingSDK.docc in Sources */ = {isa = PBXBuildFile; fileRef = 39DA0E9227EDE3F50055AF3F /* BeagleLearningNetworkingSDK.docc */; };
+		39DA0E9927EDE3F50055AF3F /* BeagleLearningNetworkingSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39DA0E8E27EDE3F50055AF3F /* BeagleLearningNetworkingSDK.framework */; };
+		39DA0E9E27EDE3F50055AF3F /* BeagleLearningNetworkingSDKTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39DA0E9D27EDE3F50055AF3F /* BeagleLearningNetworkingSDKTests.swift */; };
+		39DA0E9F27EDE3F50055AF3F /* BeagleLearningNetworkingSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = 39DA0E9127EDE3F50055AF3F /* BeagleLearningNetworkingSDK.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		39DA0ED627EDE4B80055AF3F /* Networking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39DA0ED527EDE4B80055AF3F /* Networking.swift */; };
+		39DA0ED927EDE5050055AF3F /* Beagle in Frameworks */ = {isa = PBXBuildFile; productRef = 39DA0ED827EDE5050055AF3F /* Beagle */; };
+		39DA0EDB27EDE52F0055AF3F /* NetworkClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39DA0EDA27EDE52F0055AF3F /* NetworkClient.swift */; };
+		39DA0EDD27EDE5CB0055AF3F /* NetworkLog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39DA0EDC27EDE5CB0055AF3F /* NetworkLog.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		39DA0E9A27EDE3F50055AF3F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 39DA0E8527EDE3F50055AF3F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 39DA0E8D27EDE3F50055AF3F;
+			remoteInfo = BeagleLearningNetworkingSDK;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		39DA0E8E27EDE3F50055AF3F /* BeagleLearningNetworkingSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = BeagleLearningNetworkingSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		39DA0E9127EDE3F50055AF3F /* BeagleLearningNetworkingSDK.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BeagleLearningNetworkingSDK.h; sourceTree = "<group>"; };
+		39DA0E9227EDE3F50055AF3F /* BeagleLearningNetworkingSDK.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = BeagleLearningNetworkingSDK.docc; sourceTree = "<group>"; };
+		39DA0E9827EDE3F50055AF3F /* BeagleLearningNetworkingSDKTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BeagleLearningNetworkingSDKTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		39DA0E9D27EDE3F50055AF3F /* BeagleLearningNetworkingSDKTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeagleLearningNetworkingSDKTests.swift; sourceTree = "<group>"; };
+		39DA0ED527EDE4B80055AF3F /* Networking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Networking.swift; sourceTree = "<group>"; };
+		39DA0EDA27EDE52F0055AF3F /* NetworkClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkClient.swift; sourceTree = "<group>"; };
+		39DA0EDC27EDE5CB0055AF3F /* NetworkLog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkLog.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		39DA0E8B27EDE3F50055AF3F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39DA0ED927EDE5050055AF3F /* Beagle in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		39DA0E9527EDE3F50055AF3F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39DA0E9927EDE3F50055AF3F /* BeagleLearningNetworkingSDK.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		39DA0E8427EDE3F50055AF3F = {
+			isa = PBXGroup;
+			children = (
+				39DA0E9027EDE3F50055AF3F /* BeagleLearningNetworkingSDK */,
+				39DA0E9C27EDE3F50055AF3F /* BeagleLearningNetworkingSDKTests */,
+				39DA0E8F27EDE3F50055AF3F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		39DA0E8F27EDE3F50055AF3F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				39DA0E8E27EDE3F50055AF3F /* BeagleLearningNetworkingSDK.framework */,
+				39DA0E9827EDE3F50055AF3F /* BeagleLearningNetworkingSDKTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		39DA0E9027EDE3F50055AF3F /* BeagleLearningNetworkingSDK */ = {
+			isa = PBXGroup;
+			children = (
+				39DA0ED427EDE4A20055AF3F /* Sources */,
+				39DA0E9127EDE3F50055AF3F /* BeagleLearningNetworkingSDK.h */,
+				39DA0E9227EDE3F50055AF3F /* BeagleLearningNetworkingSDK.docc */,
+			);
+			path = BeagleLearningNetworkingSDK;
+			sourceTree = "<group>";
+		};
+		39DA0E9C27EDE3F50055AF3F /* BeagleLearningNetworkingSDKTests */ = {
+			isa = PBXGroup;
+			children = (
+				39DA0E9D27EDE3F50055AF3F /* BeagleLearningNetworkingSDKTests.swift */,
+			);
+			path = BeagleLearningNetworkingSDKTests;
+			sourceTree = "<group>";
+		};
+		39DA0ED427EDE4A20055AF3F /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				39DA0ED527EDE4B80055AF3F /* Networking.swift */,
+				39DA0EDA27EDE52F0055AF3F /* NetworkClient.swift */,
+				39DA0EDC27EDE5CB0055AF3F /* NetworkLog.swift */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		39DA0E8927EDE3F50055AF3F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39DA0E9F27EDE3F50055AF3F /* BeagleLearningNetworkingSDK.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		39DA0E8D27EDE3F50055AF3F /* BeagleLearningNetworkingSDK */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 39DA0EA227EDE3F50055AF3F /* Build configuration list for PBXNativeTarget "BeagleLearningNetworkingSDK" */;
+			buildPhases = (
+				39DA0E8927EDE3F50055AF3F /* Headers */,
+				39DA0E8A27EDE3F50055AF3F /* Sources */,
+				39DA0E8B27EDE3F50055AF3F /* Frameworks */,
+				39DA0E8C27EDE3F50055AF3F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BeagleLearningNetworkingSDK;
+			packageProductDependencies = (
+				39DA0ED827EDE5050055AF3F /* Beagle */,
+			);
+			productName = BeagleLearningNetworkingSDK;
+			productReference = 39DA0E8E27EDE3F50055AF3F /* BeagleLearningNetworkingSDK.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		39DA0E9727EDE3F50055AF3F /* BeagleLearningNetworkingSDKTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 39DA0EA527EDE3F50055AF3F /* Build configuration list for PBXNativeTarget "BeagleLearningNetworkingSDKTests" */;
+			buildPhases = (
+				39DA0E9427EDE3F50055AF3F /* Sources */,
+				39DA0E9527EDE3F50055AF3F /* Frameworks */,
+				39DA0E9627EDE3F50055AF3F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				39DA0E9B27EDE3F50055AF3F /* PBXTargetDependency */,
+			);
+			name = BeagleLearningNetworkingSDKTests;
+			productName = BeagleLearningNetworkingSDKTests;
+			productReference = 39DA0E9827EDE3F50055AF3F /* BeagleLearningNetworkingSDKTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		39DA0E8527EDE3F50055AF3F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					39DA0E8D27EDE3F50055AF3F = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					39DA0E9727EDE3F50055AF3F = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 39DA0E8827EDE3F50055AF3F /* Build configuration list for PBXProject "BeagleLearningNetworkingSDK" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 39DA0E8427EDE3F50055AF3F;
+			packageReferences = (
+				39DA0ED727EDE5050055AF3F /* XCRemoteSwiftPackageReference "beagle" */,
+			);
+			productRefGroup = 39DA0E8F27EDE3F50055AF3F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				39DA0E8D27EDE3F50055AF3F /* BeagleLearningNetworkingSDK */,
+				39DA0E9727EDE3F50055AF3F /* BeagleLearningNetworkingSDKTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		39DA0E8C27EDE3F50055AF3F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		39DA0E9627EDE3F50055AF3F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		39DA0E8A27EDE3F50055AF3F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39DA0E9327EDE3F50055AF3F /* BeagleLearningNetworkingSDK.docc in Sources */,
+				39DA0ED627EDE4B80055AF3F /* Networking.swift in Sources */,
+				39DA0EDB27EDE52F0055AF3F /* NetworkClient.swift in Sources */,
+				39DA0EDD27EDE5CB0055AF3F /* NetworkLog.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		39DA0E9427EDE3F50055AF3F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39DA0E9E27EDE3F50055AF3F /* BeagleLearningNetworkingSDKTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		39DA0E9B27EDE3F50055AF3F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 39DA0E8D27EDE3F50055AF3F /* BeagleLearningNetworkingSDK */;
+			targetProxy = 39DA0E9A27EDE3F50055AF3F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		39DA0EA027EDE3F50055AF3F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		39DA0EA127EDE3F50055AF3F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		39DA0EA327EDE3F50055AF3F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = Y66AZU6P9N;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = bsalvesdev.BeagleLearningNetworkingSDK;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		39DA0EA427EDE3F50055AF3F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = Y66AZU6P9N;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = bsalvesdev.BeagleLearningNetworkingSDK;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		39DA0EA627EDE3F50055AF3F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Y66AZU6P9N;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = bsalvesdev.BeagleLearningNetworkingSDKTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		39DA0EA727EDE3F50055AF3F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Y66AZU6P9N;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = bsalvesdev.BeagleLearningNetworkingSDKTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		39DA0E8827EDE3F50055AF3F /* Build configuration list for PBXProject "BeagleLearningNetworkingSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				39DA0EA027EDE3F50055AF3F /* Debug */,
+				39DA0EA127EDE3F50055AF3F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		39DA0EA227EDE3F50055AF3F /* Build configuration list for PBXNativeTarget "BeagleLearningNetworkingSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				39DA0EA327EDE3F50055AF3F /* Debug */,
+				39DA0EA427EDE3F50055AF3F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		39DA0EA527EDE3F50055AF3F /* Build configuration list for PBXNativeTarget "BeagleLearningNetworkingSDKTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				39DA0EA627EDE3F50055AF3F /* Debug */,
+				39DA0EA727EDE3F50055AF3F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		39DA0ED727EDE5050055AF3F /* XCRemoteSwiftPackageReference "beagle" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/ZupIT/beagle.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		39DA0ED827EDE5050055AF3F /* Beagle */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 39DA0ED727EDE5050055AF3F /* XCRemoteSwiftPackageReference "beagle" */;
+			productName = Beagle;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 39DA0E8527EDE3F50055AF3F /* Project object */;
+}

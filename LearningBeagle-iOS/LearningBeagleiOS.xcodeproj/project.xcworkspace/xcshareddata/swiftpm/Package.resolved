@@ -1,0 +1,25 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "Beagle",
+        "repositoryURL": "https://github.com/ZupIT/beagle.git",
+        "state": {
+          "branch": null,
+          "revision": "cbf22dfc5bc99832367cfc3b61c5cadf630a4518",
+          "version": "1.9.0"
+        }
+      },
+      {
+        "package": "YogaKit",
+        "repositoryURL": "https://github.com/ZupIT/yoga.git",
+        "state": {
+          "branch": null,
+          "revision": "ed609289e4351f5e809d165989d1c607874a5151",
+          "version": "1.19.0"
+        }
+      }
+    ]
+  },
+  "version": 1
+}
